@@ -1,46 +1,41 @@
 ---
-about: Criar uma Epic (grande funcionalidade do sistema)
-labels: epic
 name: Epic
-title: E00 -
+about: Criar um grande agrupamento de histórias de usuário (Módulo)
+title: '[E0X] - '
+labels: 'epic'
+assignees: ''
 ---
 
-## Descrição da Epic
+## 🚀 Descrição da Epic
 
-Descreva a funcionalidade principal que será desenvolvida.
+[Descreva de forma macro o módulo que será desenvolvido. Ex: Módulo de Controle de Acessos, Módulo Financeiro, Módulo de Comunicação.]
 
-------------------------------------------------------------------------
+---
 
-## Objetivo
+## 🎯 Objetivo e Valor de Negócio
 
-Qual o objetivo dessa Epic para o sistema ou para o usuário?
+[Qual o problema estrutural do condomínio que este módulo resolve? Como ele facilita a vida do síndico ou dos moradores?]
 
-------------------------------------------------------------------------
+---
 
-## Valor de Negócio
+## 🔗 User Stories Relacionadas
 
-Explique qual valor essa funcionalidade gera para os usuários.
+[Liste os IDs e títulos das histórias de usuário que compõem esta Epic]
 
-------------------------------------------------------------------------
+- [ ] [USXX] - [Título da História]
+- [ ] [USXX] - [Título da História]
+- [ ] [USXX] - [Título da História]
 
-## User Stories Relacionadas
+---
 
-Liste as histórias de usuário que fazem parte desta Epic.
+## ✅ Critérios de Conclusão da Epic
 
--   [ ] USXX -
--   [ ] USXX -
--   [ ] USXX -
+- [ ] Todas as User Stories vinculadas foram movidas para "Done"
+- [ ] O fluxo completo do módulo foi testado de ponta a ponta
+- [ ] O módulo está acessível na navegação principal do aplicativo
 
-------------------------------------------------------------------------
+---
 
-## Critérios de Conclusão da Epic
+## 📌 Observações
 
--   [ ] Todas as histórias concluídas
--   [ ] Funcionalidade validada
--   [ ] Documentação atualizada
-
-------------------------------------------------------------------------
-
-## Observações
-
-Informações adicionais relevantes.
+[Links úteis, como protótipos de telas, diagramas de banco de dados, ou documentos do regimento do condomínio]
