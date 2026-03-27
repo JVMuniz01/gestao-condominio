@@ -1,70 +1,48 @@
-# BUGXX - Título do Bug
+---
+name: Bug Report
+about: Relatar um erro ou comportamento inesperado na aplicação
+title: '[BUG] - '
+labels: 'bug'
+assignees: ''
+---
 
-## Descrição do Problema
+## 🚨 Descrição do Problema
 
-Descreva claramente o problema encontrado no sistema.
+[Descreva claramente o que está falhando no aplicativo ou na API.]
 
-------------------------------------------------------------------------
+---
 
-## Passos para Reproduzir
+## 👣 Passos para Reproduzir
 
-1.  Acessar a página ou funcionalidade
-2.  Executar a ação que causa o erro
-3.  Repetir o processo
-4.  Observar o comportamento inesperado
+1. [Acessar a tela/rota específica]
+2. [Ação realizada pelo usuário - ex: preencher formulário e clicar em salvar]
+3. [Comportamento observado - ex: app fecha, botão não responde, erro 500 na API]
 
-------------------------------------------------------------------------
+---
 
-## Resultado Esperado
+## 🎯 Resultado Esperado vs 🐛 Resultado Atual
 
-Descreva o comportamento correto esperado do sistema.
+- **Esperado:** [O que o sistema deveria ter feito]
+- **Atual:** [O que o sistema fez de errado]
 
-------------------------------------------------------------------------
+---
 
-## Resultado Atual
+## ⚠️ Impacto no Domínio
 
-Descreva o comportamento que realmente está acontecendo.
+[Como isso afeta a gestão do condomínio? Ex: Moradores conseguem burlar regras, síndico perde acesso a dados, falha crítica de segurança na portaria.]
 
-------------------------------------------------------------------------
+---
 
-## Impacto
+## 📱 Informações do Ambiente
 
-Explique como o bug afeta o sistema ou os usuários.
+- **Plataforma:** [Mobile (iOS/Android) / Web]
+- **Ambiente:** [Emulador / Dispositivo Físico / Localhost]
+- **Data do teste:** [Data em que o erro foi identificado]
 
-Exemplos: - Usuários conseguem selecionar o mesmo número da rifa -
-Inconsistência no sorteio - Falha na experiência do usuário
+---
 
-------------------------------------------------------------------------
+## ✅ Critérios de Correção
 
-## Critérios de Correção
-
--   [ ] Bug reproduzido pela equipe
--   [ ] Correção implementada
--   [ ] Testes realizados
--   [ ] Teste de regressão executado
--   [ ] Bug validado após correção
-
-------------------------------------------------------------------------
-
-## Informações do Ambiente
-
--   Sistema: Web / Mobile
--   Navegador:
--   Versão:
--   Data do teste:
-
-------------------------------------------------------------------------
-
-## Relacionamentos
-
-Epic: E05 - Correção de Defeitos\
-User Story relacionada: (ex: US04 - Escolher número da rifa)
-
-------------------------------------------------------------------------
-
-## Campos recomendados no Board
-
-Tipo: Bug\
-Priority: P0 / P1 / P2\
-Sprint: definir conforme planejamento\
-Story Points: normalmente vazio
+- [ ] Causa raiz identificada no código
+- [ ] Correção implementada e testada no mesmo ambiente
+- [ ] Teste de regressão (garantir que não quebrou outras funcionalidades associadas)
