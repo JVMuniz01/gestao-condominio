@@ -1,43 +1,42 @@
 ---
-about: Criar uma tarefa técnica relacionada a uma User Story
-labels: task
-name: Task
-title: TXX -
+name: Task Técnica
+about: Criar uma tarefa de infraestrutura, arquitetura ou banco de dados
+title: '[TXX] - '
+labels: 'task'
+assignees: ''
 ---
 
-## User Story Relacionada
+## 🔗 Relações
 
-USXX - Nome da User Story\
-Epic: EXX - Nome do Épico
+**Epic:** [EXX - Nome do Módulo]
+**User Story Bloqueada (Opcional):** [USXX - Qual história depende desta tarefa?]
 
-------------------------------------------------------------------------
+---
 
-## Descrição
+## 🛠️ Descrição
 
-Explique claramente o que precisa ser feito nesta tarefa.
+[Explique o objetivo técnico. Ex: Configurar a navegação do app, modelar o esquema relacional, criar a estrutura base da API REST, etc.]
 
-------------------------------------------------------------------------
+---
 
-## Subtarefas
+## 📋 Checklist de Execução
 
--   [ ] Subtarefa 1
--   [ ] Subtarefa 2
--   [ ] Subtarefa 3
+- [ ] [Passo técnico 1 - Ex: Criação de tabelas/entidades]
+- [ ] [Passo técnico 2 - Ex: Configuração de rotas ou componentes ]
+- [ ] [Passo técnico 3 - Ex: Configuração de variáveis de ambiente]
 
-------------------------------------------------------------------------
+---
 
-## Critérios de Conclusão
+## ✅ Critérios de Conclusão
 
--   [ ] Implementação concluída
--   [ ] Código revisado
--   [ ] Testes realizados
--   [ ] Documentação atualizada
+- [ ] Implementação técnica validada localmente
+- [ ] Código revisado por outro desenvolvedor
+- [ ] Sem quebras no build do projeto
 
-------------------------------------------------------------------------
+---
 
-## Campos recomendados no Board
+## 🏷️ Campos recomendados no Board
 
-Tipo: Task\
-Sprint: Sprint X\
-Prioridade: Alta / Média / Baixa\
-Story Points: 1 ou 2
+- **Tipo:** Task Técnica
+- **Sprint:** [Sprint X]
+- **Prioridade:** [Alta / Média / Baixa]
